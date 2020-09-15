@@ -1,0 +1,187 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 550,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        1.0,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -1.0,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 550,
+      "type": "VEC3",
+      "max": [
+        0.99871253967285156,
+        1.0,
+        0.99871253967285156
+      ],
+      "min": [
+        -0.99871253967285156,
+        -0.99999916553497314,
+        -0.99871253967285156
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 550,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0303095281124115,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.031331468373537064,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 550,
+      "type": "VEC2",
+      "max": [
+        0.99892324209213257,
+        0.99884068965911865
+      ],
+      "min": [
+        -0.0010808706283569336,
+        -5.3644180297851563E-06
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 550,
+      "type": "VEC2",
+      "max": [
+        0.99924451112747192,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.20864897966384888
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 2496,
+      "type": "SCALAR",
+      "max": [
+        549.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Capsule.bin",
+      "byteLength": 35792
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6600,
+      "byteLength": 6600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13200,
+      "byteLength": 8800
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22000,
+      "byteLength": 4400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26400,
+      "byteLength": 4400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30800,
+      "byteLength": 4992
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Default-Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Capsule"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Capsule"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Capsule"
+    }
+  ]
+}
