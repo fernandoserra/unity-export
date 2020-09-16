@@ -1,0 +1,185 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 580,
+      "type": "VEC3",
+      "max": [
+        0.10465431213378906,
+        0.13500306010246277,
+        0.06399497389793396
+      ],
+      "min": [
+        -0.10465431213378906,
+        -0.13500121235847473,
+        -0.12084618210792542
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 580,
+      "type": "VEC3",
+      "max": [
+        0.98855692148208618,
+        0.99179506301879883,
+        0.59659624099731445
+      ],
+      "min": [
+        -0.98855692148208618,
+        -0.99997109174728394,
+        -0.99840825796127319
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 580,
+      "type": "VEC4",
+      "max": [
+        0.99980807304382324,
+        0.99875801801681519,
+        0.98447734117507935,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99942672252655029,
+        -0.98568886518478394,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 580,
+      "type": "VEC2",
+      "max": [
+        0.98849999904632568,
+        0.9725000262260437
+      ],
+      "min": [
+        0.011800000444054604,
+        0.011699974536895752
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 2586,
+      "type": "SCALAR",
+      "max": [
+        579.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Kitsune.bin",
+      "byteLength": 33012
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 6960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6960,
+      "byteLength": 6960
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13920,
+      "byteLength": 9280
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23200,
+      "byteLength": 4640
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27840,
+      "byteLength": 5172
+    }
+  ],
+  "images": [
+    {
+      "uri": "Kitsune_Normal.png",
+      "name": "Kitsune_Normal"
+    }
+  ],
+  "materials": [
+    {
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "Kitsune_Mat"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Kitsune"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        -0.6,
+        0.336,
+        0.0
+      ],
+      "name": "Kitsune"
+    }
+  ],
+  "samplers": [
+    {
+      "WrapS": 33071,
+      "WrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Kitsune"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Kitsune_Normal"
+    }
+  ]
+}
